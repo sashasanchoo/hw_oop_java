@@ -22,5 +22,10 @@ package org.itstep.task02;
 public class Main {
     public static void main(String[] args) {
         // FIXME: здесь пример использования класса
+        City city = new City("Dnipro", "Dnipro region", "Ukraine", 1000000, "49000", "49000");
+        city.ReadValues();
+        city.WriteValues();
+        city.ReadValues();
+
     }
 }

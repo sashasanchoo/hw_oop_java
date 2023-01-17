@@ -24,5 +24,10 @@ public class Main {
     public static void main(String[] args) {
         // TODO: Пишите классы в этом пакете
         // FIXME: здесь пример использования класса
+        Human human = new Human("Name", "01.01.2000", "Phone", "City", "Country", "Address");
+        human.ReadValues();
+        human.WriteValues();
+        human.ReadValues();
+
     }
 }
